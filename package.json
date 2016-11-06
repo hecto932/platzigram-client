@@ -1,0 +1,29 @@
+{
+  "name": "platzigram-client",
+  "version": "1.0.0",
+  "description": "Platzigram API Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecto932/platzigram-client.git"
+  },
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecto932/platzigram-client/issues"
+  },
+  "homepage": "https://github.com/hecto932/platzigram-client#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-eslint": "^7.1.0",
+    "standard": "^8.5.0",
+    "uuid-base62": "^0.1.0"
+  }
+}
