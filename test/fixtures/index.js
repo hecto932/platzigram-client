@@ -11,7 +11,7 @@ const fixtures = {
       url: `https://platzigram.test/${uuid.v4()}.jpg`,
       likes: 0,
       liked: false,
-      userId: uuid.encoded(id),
+      userId: uuid.encode(id),
       id: id,
       createdAt: new Date().toString()
     }
